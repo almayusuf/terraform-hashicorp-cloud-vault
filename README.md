@@ -1,7 +1,7 @@
 # Build Vault
 ```
 module "vault" {
-  source = "../"
+  source = "farrukh90/cloud-vault/hashicorp"
   vault_config = {
     region        = "us-east-1"
     client_id     = "Hashicorp Cloud >> IAM >> Service Principal >> Create Service Principal"
@@ -18,3 +18,4 @@ output "vault_info" {
         module.vault.vpc_id,
     ]
 }
+```
