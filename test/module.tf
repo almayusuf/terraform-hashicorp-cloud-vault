@@ -1,11 +1,9 @@
-# Build Vault
-```
 module "vault" {
   source = "../"
   vault_config = {
     region        = "us-east-1"
-    client_id     = "Hashicorp Cloud >> IAM >> Service Principal >> Create Service Principal"
-    client_secret = "Hashicorp Cloud >> IAM >> Service Principal >> Create Service Principal"
+    client_id     = ""
+    client_secret = ""
     cidr_block    = "10.0.0.0/16"
     hvn_id        = "hcp-tf-example-hvn"
     cluster_id    = "hcp-tf-example-vault-cluster"
