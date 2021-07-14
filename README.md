@@ -16,6 +16,7 @@ output "vault_info" {
         module.vault.vault_id,
         module.vault.region,
         module.vault.vpc_id,
+        module.vault.URL
     ]
 }
 ```
